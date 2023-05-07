@@ -1,3 +1,152 @@
+/*Variables*/ /*MENU RESPONSIVE CON FLEX*/
+.menu {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin: -10px -50px -10px -10px;
+  background-color: #151515;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  min-width: 100%;
+}
+.menu a {
+  color: #D3D3D3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: cursive;
+  font-size: 25px;
+}
 
+@media screen and (max-width: 800px) {
+  .menu {
+    display: block;
+    overflow: hidden;
+    background-color: #151515;
+  }
+  .menu a {
+    display: block;
+    color: #D3D3D3;
+    text-decoration: none;
+    width: 100%;
+    margin-right: -10px;
+  }
+}
+.main h1 {
+  font-family: cursive;
+  text-align: center;
+  font-size: 8vh;
+  margin-top: 4%;
+}
+.main p {
+  text-align: center;
+  font-size: 25px;
+  margin: 20px 0px;
+  color: #D3D3D3;
+}
+
+.imagenMain {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10vh;
+  justify-content: center;
+  gap: 5%;
+  align-items: center;
+}
+
+.imagenesMain img {
+  margin: 10px;
+}
+
+.imagenMain img:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+@media screen and (max-width: 800px) {
+  .imagenMain {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    justify-content: center;
+  }
+}
+.mainImagen {
+  width: 350px;
+  height: 250px;
+}
+
+/*ALBUMES*/
+.Galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  padding-bottom: 20vh;
+}
+
+.imagenesAlbum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: transform 0.3s ease-in-out;
+  padding-top: 30px;
+}
+.imagenesAlbum:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+
+/*BIOGRAFIA*/
+.biografia {
+  font-size: 2.2vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-align: justify;
+  padding-top: 40px;
+}
+.biografia p {
+  color: #D3D3D3;
+}
+
+/* Curiosidades */
+.Curiosidades li {
+  color: #D3D3D3;
+}
+
+/*TOUR*/
+.imagenTour {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 40px 0px 50px 0px;
+}
+
+.imagenAfiche {
+  width: 50%;
+  height: 50%;
+}
+
+/*CANCIONES*/
+.Music {
+  padding-top: 100px;
+  border-bottom: solid;
+}
+
+body {
+  background-color: #751a1a;
+  overflow-x: hidden;
+}
+
+/*FOOTER*/
+.abajo {
+  display: flex;
+  background-color: #151515;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/*CAMBIOS DE bootstrap*/
+.color {
+  background-color: #D3D3D3;
+  margin-top: 50px;
+}
 
 /*# sourceMappingURL=styles.css.map */

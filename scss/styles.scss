@@ -1,0 +1,36 @@
+@import "variables";
+@import "menu";
+@import "album";
+@import "biografia";
+@import "curiosidades";
+@import "tour";
+@import "canciones";
+
+
+
+
+body {
+    background-color:$backgroundA;
+    overflow-x: hidden;
+}
+
+/*FOOTER*/
+.abajo{
+    display:flex;
+    background-color:$backgroundB ;
+
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10px ;
+    
+}
+
+
+/*CAMBIOS DE bootstrap*/
+.color{
+    background-color: $colorTexto;
+    margin-top: 50px;
+}
+
+
+

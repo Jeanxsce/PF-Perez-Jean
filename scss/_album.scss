@@ -1,0 +1,19 @@
+/*ALBUMES*/
+.Galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    padding-bottom: 20vh;
+}
+
+.imagenesAlbum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: transform 0.3s ease-in-out;
+    padding-top: 30px;
+
+        &:hover {
+            filter: opacity(0.9);
+            transform: scale(1.04);
+    }
+}

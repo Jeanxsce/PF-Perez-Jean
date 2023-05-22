@@ -8,7 +8,6 @@
 
 
 
-
 body {
     background-color:$backgroundA;
     overflow-x: hidden;
@@ -16,21 +15,19 @@ body {
 
 /*FOOTER*/
 .abajo{
-    display:flex;
-    background-color:$backgroundB ;
-
-    justify-content: center;
-    align-items: center;
-    margin-bottom:10px ;
-    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:$backgroundB;
+    color: white;
+    text-align: center;
 }
-
 
 /*CAMBIOS DE bootstrap*/
 .color{
     background-color: $colorTexto;
     margin-top: 50px;
 }
-
 
 

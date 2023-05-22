@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     padding-bottom: 20vh;
+    
 }
 
 .imagenesAlbum {
@@ -11,6 +12,7 @@
     justify-content: center;
     transform: transform 0.3s ease-in-out;
     padding-top: 30px;
+    
 
         &:hover {
             filter: opacity(0.9);

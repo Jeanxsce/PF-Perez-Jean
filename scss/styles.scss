@@ -6,14 +6,17 @@
 @import "tour";
 @import "canciones";
 
-
+html {
+    height: 100%;
+}
 
 body {
     background-color:$backgroundA;
     overflow-x: hidden;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    min-height: 100%;
+    position: relative;
 }
 
 /*FOOTER*/
@@ -27,15 +30,9 @@ body {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     width: 100%;
     min-width: 115%;
+    position: absolute;
     bottom: 0;
-    align-self: flex-end;
-
 }
-
-.abajoContainer{
-    display: flex;
-}
-
 
 /*CAMBIOS DE bootstrap*/
 .color{

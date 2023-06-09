@@ -13,14 +13,10 @@
 
     <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body>
-    <style>
-        * {
-            overflow-x: hidden;
-        }
-    </style>
+<body >
+    
     <!-- NAVBAR -->
-    <header style="overflow-y: hidden;">
+    <header class="header">
         <div class="menu">
             <a href="../index.html">Inicio</a> 
             <a href="albumes.html">Albums</a> 
@@ -37,7 +33,9 @@
     <img class="imagenAfiche" src="../images/tooour.jpg" alt="tour_theweekend" title="afiche del tour" > 
 </div>
 
-<div id="formContainer" style="margin-bottom: 10%;">
+
+<div class="espacioAbajo">
+    <div  class="informacion" id="formContainer">
     <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label color">Email address</label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -47,10 +45,11 @@
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
     
-    <div class="d-flex justify-content-center align-items-center">
+    <div class="enviar d-flex justify-content-center align-items-center">
         <button type="button" class="btn btn-secondary">Enviar</button>
     </div>
 </div>
+</div>  
 
 <!-- FOOTER -->
 <footer class="abajo">

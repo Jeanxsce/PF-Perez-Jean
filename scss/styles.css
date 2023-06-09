@@ -35,19 +35,18 @@
   text-align: center;
   font-size: 8vh;
   margin-top: 4%;
-  overflow-y: hidden;
 }
 .main p {
   text-align: center;
   font-size: 25px;
-  margin: 20px 20px 0px 20px;
+  margin: 20px 0px;
   color: #D3D3D3;
 }
 
 .imagenMain {
   display: flex;
   flex-direction: row;
-  margin-bottom: 20vh;
+  margin-bottom: 10vh;
   justify-content: center;
   gap: 5%;
   align-items: center;
@@ -98,35 +97,20 @@
 
 /*BIOGRAFIA*/
 .biografia {
-  font-size: 2.5vh;
-  text-align: justify;
+  font-size: 2.2vh;
+  text-align: center;
   padding-top: 40px;
-  padding-bottom: 20%;
-  margin-bottom: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10%;
 }
 .biografia p {
   color: #D3D3D3;
-  padding-left: 30px;
-  padding-right: 40px;
-  letter-spacing: 0.3px;
-  word-spacing: 0.3px;
-}
-
-h3 {
-  text-align: center;
-  text-decoration: underline;
-  color: #151515;
 }
 
 /* Curiosidades */
 .Curiosidades li {
   color: #D3D3D3;
-}
-
-.acordionDos {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20vh;
 }
 
 /*TOUR*/
@@ -142,26 +126,10 @@ h3 {
   height: 50%;
 }
 
-.informacion {
-  margin-bottom: 10%;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.enviar {
-  padding-bottom: 25px;
-}
-
-.espacioAbajo {
-  padding-bottom: 20px;
-}
-
 /*CANCIONES*/
 .Music {
   padding-top: 100px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-bottom: 20vh;
+  padding-left: 10%;
   border-bottom: solid;
 }
 
@@ -179,11 +147,6 @@ body {
   position: relative;
 }
 
-.header {
-  overflow-y: hidden;
-  overflow-x: hidden;
-}
-
 /*FOOTER*/
 .abajo {
   padding-top: 10px;
@@ -193,6 +156,7 @@ body {
   color: white;
   text-align: center;
   width: 100%;
+  min-width: 115%;
   position: absolute;
   bottom: 0;
 }
@@ -201,11 +165,6 @@ body {
 .color {
   background-color: #D3D3D3;
   margin-top: 50px;
-}
-
-.div-separador {
-  height: 2px;
-  margin-top: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
